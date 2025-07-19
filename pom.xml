@@ -23,7 +23,11 @@
     </properties>
 
     <modules>
+        <!--Service modules-->
         <module>services/1-api-gateway</module>
+
+        <!--Shared modules-->
+        <module>shared/shared-spring</module>
     </modules>
 
 </project>
