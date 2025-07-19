@@ -28,6 +28,7 @@
 
         <!--Shared modules-->
         <module>shared/shared-spring</module>
+        <module>shared/shared-domain</module>
     </modules>
 
 </project>
