@@ -25,6 +25,7 @@
     <modules>
         <!--Service modules-->
         <module>services/1-api-gateway</module>
+        <module>services/2-auth-service</module>
 
         <!--Shared modules-->
         <module>shared/shared-spring</module>
