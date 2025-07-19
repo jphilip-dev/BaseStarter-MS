@@ -12,5 +12,22 @@
 
     <artifactId>shared-domain</artifactId>
     <name>Shared Domain</name>
+    <packaging>jar</packaging>
+
+    <dependencies>
+
+
+        <!-- For Lombok and Logger -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>
